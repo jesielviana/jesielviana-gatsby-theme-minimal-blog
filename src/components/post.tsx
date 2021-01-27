@@ -2,6 +2,7 @@
 import { jsx, Heading } from "theme-ui"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import React from "react"
+import { Disqus } from 'gatsby-plugin-disqus';
 import Layout from "./layout"
 import ItemTags from "./item-tags"
 import SEO from "./seo"
@@ -66,6 +67,11 @@ const Post = ({ data: { post } }: PostProps) => (
       }}
     >
       <MDXRenderer>{post.body}</MDXRenderer>
+      <Disqus 
+      identifier={post.slug.substring(1)}
+      title={post.title}
+      url={post.slug}
+    />
     </section>
   </Layout>
 )
