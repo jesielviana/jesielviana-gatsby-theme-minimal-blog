@@ -67,3 +67,6 @@ public
 .idea
 .vscode
 .DS_Store
+
+
+npm config set registry https://registry.jesielviana.npme.io/
