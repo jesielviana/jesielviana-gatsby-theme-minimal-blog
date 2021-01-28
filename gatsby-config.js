@@ -20,6 +20,14 @@ module.exports = options => {
     },
     plugins: [
       {
+        resolve: 'gatsby-plugin-react-svg',
+        options: {
+          rule: {
+            include: /assets/
+          }
+        }
+      },
+      {
         resolve: '@lekoarts/gatsby-theme-minimal-blog-core',
         options
       },

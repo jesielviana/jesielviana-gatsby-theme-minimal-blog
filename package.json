@@ -1,6 +1,6 @@
 {
   "name": "jesielviana-gatsby-theme-minimal-blog",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "author": "Jesiel Viana <jesielviana@ifpi.edu.br>",
   "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.",
   "license": "MIT",
@@ -29,6 +29,7 @@
     "gatsby-plugin-disqus": "^1.2.2",
     "gatsby-plugin-feed": "^2.10.0",
     "gatsby-plugin-react-helmet": "^3.7.0",
+    "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-theme-ui": "^0.3.3",
     "gatsby-plugin-typescript": "^2.9.0",
     "lodash.kebabcase": "^4.1.1",
