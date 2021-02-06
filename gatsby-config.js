@@ -1,10 +1,7 @@
 const newsletterFeed = require('./src/utils/newsletterFeed')
 
 module.exports = options => {
-  const {
-    feed = true,
-    feedTitle = 'Minimal Blog - @lekoarts/gatsby-theme-minimal-blog'
-  } = options
+  const { feed = true, feedTitle = 'Jesiel Viana - Blog' } = options
 
   return {
     siteMetadata: {
@@ -12,8 +9,7 @@ module.exports = options => {
       siteTitleAlt: 'Jesiel Viana',
       siteHeadline: 'Jesiel Viana',
       siteUrl: 'https://jesielviana.com',
-      siteDescription:
-        'Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.',
+      siteDescription: 'Jesiel Viana, engenheiro de software e professor.',
       siteLanguage: 'pt-Br',
       siteImage: '/banner.jpg',
       author: '@jesielviana'
